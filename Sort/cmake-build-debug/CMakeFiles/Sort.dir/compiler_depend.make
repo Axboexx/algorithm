@@ -154,7 +154,8 @@ CMakeFiles/Sort.dir/main.cpp.obj: ../main.cpp \
   D:/CLion\ 2021.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream \
   D:/CLion\ 2021.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc \
   ../select_kth_smallest.h \
-  ../quick_sort.h
+  ../quick_sort.h \
+  ../merge_sort.h
 
 
 D:/CLion\ 2021.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h:
@@ -464,3 +465,5 @@ D:/CLion\ 2021.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/
 D:/CLion\ 2021.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc:
 
 ../quick_sort.h:
+
+../merge_sort.h:

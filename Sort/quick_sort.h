@@ -13,19 +13,45 @@ void Swap(int *a, int *b) {
     *b = temp;
 }
 
-int Partition(int a[], int p, int r) {
-    int i = p;
-    int j = r + 1;
-    int x = a[p];
+int Partition(int a[], int low, int high) {
+    int i = low;
+    int j = high + 1;
+    int mid = a[low];
     while (1) {
-        while (a[++i] < x && i < r);
-        while (a[--j] > x);
-        if (i >= j)break;
+        while (a[++i] < mid && i < high);
+        while (a[--j] > mid);
+        if (i >= j)
+            break;
         Swap(&a[i], &a[j]);
     }
-    a[p] = a[j];
-    a[j] = x;
+    a[low] = a[j];
+    a[j] = mid;
     return j;
+}
+
+int Partition_Reverse(int a[], int low, int high) {
+    int i = low;
+    int j = high + 1;
+    int mid = a[low];
+    while (1) {
+        while (a[++i] > mid && i < high);
+        while (a[--j] < mid);
+        if (i >= j)
+            break;
+        Swap(&a[i], &a[j]);
+    }
+    a[low] = a[j];
+    a[j] = mid;
+    return j;
+}
+
+
+void QuickSort_Reverse(int a[], int p, int r) {
+    if (p < r) {
+        int q = Partition_Reverse(a, p, r);
+        QuickSort_Reverse(a, p, q - 1);
+        QuickSort_Reverse(a, q + 1, r);
+    }
 }
 
 void QuickSort(int a[], int p, int r) {

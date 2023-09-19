@@ -151,4 +151,5 @@ CMakeFiles/Sort.dir/main.cpp.obj: E:\A_A_data\algorithm\Sort\main.cpp \
  D:/CLion\ 2021.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream \
  D:/CLion\ 2021.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc \
  E:\A_A_data\algorithm\Sort\select_kth_smallest.h \
- E:\A_A_data\algorithm\Sort\quick_sort.h
+ E:\A_A_data\algorithm\Sort\quick_sort.h \
+ E:\A_A_data\algorithm\Sort\merge_sort.h

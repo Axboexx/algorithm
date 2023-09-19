@@ -85,6 +85,9 @@
 		<Unit filename="E:/A_A_data/algorithm/Sort/main.cpp">
 			<Option target="Sort"/>
 		</Unit>
+		<Unit filename="E:/A_A_data/algorithm/Sort/merge_sort.h">
+			<Option target="Sort"/>
+		</Unit>
 		<Unit filename="E:/A_A_data/algorithm/Sort/quick_sort.h">
 			<Option target="Sort"/>
 		</Unit>
