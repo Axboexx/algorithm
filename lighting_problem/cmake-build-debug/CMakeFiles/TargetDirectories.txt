@@ -1,0 +1,3 @@
+/Users/liuchengxu/class/algorithm/lighting_problem/cmake-build-debug/CMakeFiles/lighting_problem.dir
+/Users/liuchengxu/class/algorithm/lighting_problem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/liuchengxu/class/algorithm/lighting_problem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
